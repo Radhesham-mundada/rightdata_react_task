@@ -1,0 +1,60 @@
+.user-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-list {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.post-and-comment {
+  flex: 2;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+.user-list h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.user-list li:hover {
+  background-color: #f5f5f5;
+}
+
+.post-and-comment h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post-and-comment ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-and-comment li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
